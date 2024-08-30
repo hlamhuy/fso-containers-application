@@ -1,0 +1,49 @@
+Script started on 2024-08-28 12:41:29-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+[?2004h]0;jariok@Cosmos: ~[01;32mjariok@Cosmos[00m:[01;34m~[00m$ docker start -i focused_bhaskara 
+[?2004l[?2004h]0;root@47c51e479013: /root@47c51e479013:/# apt install curl
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 90%Reading package lists... 90%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+curl is already the newest version (8.5.0-2ubuntu10.3).
+0 upgraded, 0 newly installed, 0 to remove and 28 not upgraded.
+[?2004h]0;root@47c51e479013: /root@47c51e479013:/# curl   l -sL https://deb.nodesource.com/setup_20.x | bash
+[?2004l[38;5;79m2024-08-28 12:41:57 - Installing pre-requisites[0m
+0% [Working]            Hit:1 https://deb.nodesource.com/node_20.x nodistro InRelease
+0% [Connecting to security.ubuntu.com]0% [Connecting to security.ubuntu.com]                                      Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+                                      0% [Waiting for headers]                        Hit:3 http://archive.ubuntu.com/ubuntu noble InRelease
+                        0% [Working]0% [Waiting for headers]0% [Waiting for headers]                        Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+                        0% [Working]0% [Waiting for headers]                        Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+                        0% [Working]20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 90%Reading package lists... 90%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 90%Reading package lists... 90%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+apt-transport-https is already the newest version (2.7.14build2).
+ca-certificates is already the newest version (20240203).
+curl is already the newest version (8.5.0-2ubuntu10.3).
+gnupg is already the newest version (2.4.4-2ubuntu17).
+0 upgraded, 0 newly installed, 0 to remove and 28 not upgraded.
+0% [Working]            Hit:1 https://deb.nodesource.com/node_20.x nodistro InRelease
+0% [Connecting to archive.ubuntu.com (185.125.190.81)] [Connecting to security.ubuntu.com (185.125.190.82)]0% [Connecting to archive.ubuntu.com (185.125.190.81)] [Connecting to security.ubuntu.com (185.125.190.82)]                                                                                                           Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+                                                                                                           0% [Waiting for headers]                        Hit:3 http://archive.ubuntu.com/ubuntu noble InRelease
+                        0% [Working]0% [Waiting for headers]0% [Waiting for headers]                        Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+                        0% [Working]0% [Waiting for headers]                        Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+                        0% [Working]20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 90%Reading package lists... 90%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+[1;34m2024-08-28 12:41:59 - Repository configured successfully.[0m
+[38;5;79m2024-08-28 12:41:59 - To install Node.js, run: apt-get install nodejs -y[0m
+[38;5;79m2024-08-28 12:41:59 - You can use N|solid Runtime as a node.js alternative[0m
+[1;32m2024-08-28 12:41:59 - To install N|solid Runtime, run: apt-get install nsolid -y 
+[0m
+[?2004h]0;root@47c51e479013: /root@47c51e479013:/# [Kapt install -y nodejs
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 88%Reading package lists... 88%Reading package lists... 90%Reading package lists... 90%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 2%Reading state information... Done
+nodejs is already the newest version (20.17.0-1nodesource1).
+0 upgraded, 0 newly installed, 0 to remove and 28 not upgraded.
+[?2004h]0;root@47c51e479013: /root@47c51e479013:/# node /usr/src/app/index.js
+[?2004lHello World
+[?2004h]0;root@47c51e479013: /root@47c51e479013:/# [Kexit
+[?2004lexit
+e[?2004h]0;jariok@Cosmos: ~[01;32mjariok@Cosmos[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-28 12:42:20-05:00 [COMMAND_EXIT_CODE="0"]
